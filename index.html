@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Hub de Links</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Meu Hub</h1>
+</header>
+
+<nav>
+    <button class="tab active" onclick="abrirAba('aba1')">Cadastro de Produtos</button>
+    <button class="tab" onclick="abrirAba('aba2')">Avaliação de Jogo</button>
+    <button class="tab" onclick="abrirAba('aba3')">Kanban</button>
+    <button class="tab" onclick="abrirAba('aba4')">HTTP</button>
+</nav>
+
+<main>
+
+    <!-- ABA 1 - 3 LINKS -->
+    <div id="aba1" class="conteudo active">
+        <a href="https://infinitoealem.fwh.is/infinity/index.php?authuser=0">Cadastrar Produto</a>
+        <a href="https://infinitoealem.fwh.is/infinity/busca.php?authuser=0">Produtos Cadastrados</a>
+        <a href="https://infinitoealem.fwh.is/infinity/editaremover.php?authuser=0">Editar/Deletar Produto</a>
+    </div>
+
+    <!-- ABA 2 - 2 LINKS -->
+    <div id="aba2" class="conteudo">
+        <a href="https://filmes.great-site.net/filme/index.php?authuser=0">Avaliar Jogo</a>
+        <a href="https://filmes.great-site.net/filme/avaliacoes.php?authuser=0">Avaliações</a>
+    </div>
+
+    <!-- ABA 3 - 1 LINK -->
+    <div id="aba3" class="conteudo">
+        <a href="https://lourenco94.github.io/tarefas/?authuser=0">To Do</a>
+    </div>
+
+    <!-- ABA 4 - 1 LINK -->
+    <div id="aba4" class="conteudo">
+        <a href="https://drive.google.com/file/d/1tBRkOakHXdAdQ6cZMikIY2E_IGEnBS3n/view?usp=classroom_web&authuser=0">Pesquisa</a>
+    </div>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
